@@ -19,9 +19,12 @@ date_string = '21 June, 2018'
 # print("date_object = ", date_object_2)
 
 
-now_day = datetime.now().strftime("%Y%m%d")
+format_now_day = datetime.now().strftime("%Y%m%d")
 now_day = datetime.now().strftime("%Y-%m-%d")
 print(now_day)
 
 nowHour = datetime.now().strftime("%H")
 print(nowHour)
+
+format_datatime_now = datetime.now().strftime("%Y%m%d %H:%M:%S")
+print(format_datatime_now)
